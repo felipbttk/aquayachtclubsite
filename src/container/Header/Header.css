@@ -1,0 +1,147 @@
+/* FROM GENERAL RULES */
+
+.app__wrapperr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    min-height: 100vh;
+  }
+
+  .section__paddingg {
+    padding: 4rem 6rem; 
+ }
+
+ .app__wrapper_infoo {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .app__wrapper_imgg {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-left: 2rem;
+  }
+
+  .custom__buttonn {
+    background-color: var(--color-crimson);
+      color: var(--color-black);
+      font-family: var(--font-base);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 28px;
+      font-size: 16px;
+      padding: 0.5rem 1.5rem;
+      margin-top: 2rem;
+      border-radius: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+
+  .app__wrapper_imgg img {
+    width: 100%;
+  }
+  
+
+  @media screen and (min-width: 2000px) {
+    .custom__buttonn,
+    .p__cormorant {
+      font-size: 37px;
+      line-height: 67px;
+    }
+  
+    .p__opensans {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  
+    .headtext__cormorant {
+      font-size: 150px;
+      line-height: 210px;
+    }
+  
+    .app__wrapper_imgg img {
+        width: 100%;
+      }
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .app__wrapperr {
+      flex-direction: column;
+    }
+  
+    .app__wrapper_imgg {
+      margin: 5rem 0 0 0;
+    }
+  
+    .app__wrapper_imgg img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .section__paddingg {
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .section__paddingg {
+      padding: 4rem 2rem;
+    }
+    
+    .p__cormorant {
+      font-size: 21px;
+    }
+  
+    .p__opensans {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .p__opensans {
+      font-size: 12px;
+    }
+  
+    .p__cormorant {
+      font-size: 19px;
+    }
+  
+    .headtext__cormorant {
+      font-size: 45px;
+      line-height: 70px;
+    }
+  } 
+
+
+/* //////////////////////////////////////////////////// */
+
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 68px;
+    font-size: 50px;
+   
+}
+
+.app__header-h1 img {
+    width: 80%;
+}
+
+
