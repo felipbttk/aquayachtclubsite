@@ -1,11 +1,11 @@
 import React from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { SubHeading } from '../../components';
 import { images, } from '../../constants';
 import './Gallery.css';
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04]
+const galleryImages = [images.somar, images.survivor, images.faribana, images.pozitron, images.delusha]
 
 const Gallery = () => {
  const scrollRef = React.useRef(null);
@@ -15,18 +15,19 @@ const Gallery = () => {
 
    if(direction === 'left') {
      current.scrollLeft -= 300;
-   } else {
+   }  if (direction === 'right' ) {
      current.scrollLeft += 300;
    }
  }
 
  return (
-  <div className='app__gallery flex__center'>
+  <div className='app__gallery flex__center' id='gallery'>
     <div className='app__gallery-content'>
       <SubHeading title='Instagram' />
       <h1 className='headtext__cormorant'>Photo Gallery</h1>
-      <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>some text is writing here for informations and products</p>
-      <button type='buttom' className='custom__button'>View More</button>
+      <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}></p>
+      {/* <button type='buttom' className='custom__button'>View More</button> */}
+      <a href="https://www.instagram.com/aqua_yacht.club.kos/" target='_blank' ><FiInstagram /></a>
     </div>
 
     <div className='app__gallery-images'>

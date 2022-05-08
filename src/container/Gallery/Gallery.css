@@ -54,7 +54,7 @@
     color: #fff;
     font-size: 2rem;
     opacity: 0.5;
-    transition: .5s ease;
+    transition: 0.5s ease;
     cursor: pointer;
 }
 
@@ -76,7 +76,7 @@
 
 .app__gallery-images_arrows {
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
 
@@ -95,6 +95,21 @@
 
 .gallery__arrow-icon:hover {
     color: var(--color-white);
+}
+
+.app__gallery-content a {
+    margin-top: 0.5rem;
+} 
+
+.app__gallery-content a svg {
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app__gallery-content a svg:hover {
+    color: var(--color-golden);
 }
 
 @media screen and (min-width: 2000px) {

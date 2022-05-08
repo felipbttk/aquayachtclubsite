@@ -1,7 +1,7 @@
 .app__footer {
     width: 100%;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 
     display: flex;
     justify-content: flex-start;
@@ -34,6 +34,7 @@
 .app__footer-links_logo img:first-child {
     width: 210px;
     margin-bottom: 0.75rem;
+    opacity: 0.6;
 }
 
 .app__footer-links_work p:nth-child(2n + 1) {

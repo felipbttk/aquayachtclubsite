@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Create,   } from './container';
+import { AboutUs, Footer, Gallery, Header, Create,   } from './container';
 import  SupportEngine  from './SupportEngine/index';
+import WhatsApp from './WhatsApp/WhatsApp';
 import { Navbar } from './components';
 import './App.css';
 
@@ -10,15 +11,11 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
     <Gallery />
-    <FindUs />
     <Create />
-    <Footer />  
-    <SupportEngine />
+    <Footer />   
+    {/* <SupportEngine /> */}
+    <WhatsApp />
   </div>
 );
 

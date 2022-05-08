@@ -10,6 +10,7 @@
 
   .section__paddingg {
     padding: 4rem 6rem; 
+    z-index: 0;
  }
 
  .app__wrapper_infoo {

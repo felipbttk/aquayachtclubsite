@@ -30,13 +30,14 @@ const Navbar = () => {
         
         {toggleMenu && ( 
            <div className='app__navbar-smallscreen_overlay flex__centerr slide-bottomm'>
-             <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
-             <ul className='app__navbar-smallscreen_links'>
+             <MdOutlineRestaurantMenu  fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
+             <ul className='app__navbar-smallscreen_links' onClick={() => setToggleMenu(false)}>
                 <li className='p__opensans'><a href="#home">Home</a></li>
-                <li className='p__opensans'><a href="/">Plan Your Arrival</a></li> 
-                <li className='p__opensans'><a href="#about">About</a></li>
+                <li className='p__opensans'><a href="#plan-your-arrival">Plan Your Arrival</a></li> 
+                <li className='p__opensans'><a href="#gallery">Gallery</a></li>
                 <li className='p__opensans'><a href="#services">Services</a></li>
                 <li className='p__opensans'><a href="#contact">Contact</a></li>
+                <li className='p__opensans'><a href="#aboutUs">About Us</a></li>
              </ul>     
            </div>
         )}     

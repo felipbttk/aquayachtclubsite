@@ -16,4 +16,4 @@ import 'firebase/compat/firestore';
 
  var db =  firebaseApp.firestore();
 
- export  { db} ;
+ export  { db } ;

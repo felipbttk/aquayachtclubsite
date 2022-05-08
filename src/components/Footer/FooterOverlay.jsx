@@ -1,12 +1,12 @@
-import React from 'react';
+// import React from 'react';
 
-import './FooterOverlay.css';
+// import './FooterOverlay.css';
 
-const FooterOverlay = () => (
-  <div className='app__footerOverlay'>
-    <div className='app__footerOverlay-black' />
-    <div className='app__footerOverlay-img app__bg' />
-  </div>
-);
+// const FooterOverlay = () => (
+//   <div className='app__footerOverlay'>
+//     <div className='app__footerOverlay-black' />
+//     <div className='app__footerOverlay-img' />
+//   </div>
+// );
 
-export default FooterOverlay;
+// export default FooterOverlay;
