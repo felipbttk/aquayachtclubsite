@@ -14,6 +14,7 @@ const WhatsApp = () => {
         statusMessage = 'Typically replies within 10 Minutes'
         chatMessage = 'Hello there!'
         styles={{backgroundImage: "images.profilePicture"}}
+        height = '65%'
       />
   )
   reportWebVitals();
