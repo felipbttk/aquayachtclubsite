@@ -6,6 +6,8 @@ import WhatsApp from './WhatsApp/WhatsApp';
 import { Navbar } from './components';
 import './App.css';
 
+
+
 const App = () => (
   <div>
     <Navbar />
