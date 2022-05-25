@@ -18,7 +18,7 @@ const Footer = () => (
         <p className='p__opensans'>Email: kos@aquagreece.com</p>
       </div>
       <div className='app__footer-links_logo'>
-        <img src={images.logoo} alt="footer_logo" />
+        <img src={images.logoo} alt="kos_yacht_agent" />
         <p className='p__opensans'>"The best way to find yourself is to loose yourself in the service of others"</p>
         {/* <img src={images.spoon} alt="spoon" className='spoon__img'  style={{ marginTop: 15 }}/> */}
         <div className='app__footer-links_icons'>
